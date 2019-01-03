@@ -3,12 +3,17 @@
 #include <stdio.h>
 int  fun(int a[])
 {
-	int a[1000];
-	int i = 0;
-	for (i = 0; i <= 1000; i++)
+	int i, number=0,b=0;
+	for (i = 0; i < 1000; i++)
 	{
-
+		if (i % 7 == 0 || i % 11 == 0)
+			if (i % 77 != 0)
+			{
+				a[b++] = i;
+				number++;
+			}
 	}
+	return number;
 }
 int main()
 {
