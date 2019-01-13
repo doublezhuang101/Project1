@@ -21,4 +21,3 @@ int fun(int n)
 	}
 	return count;
 }
-//
