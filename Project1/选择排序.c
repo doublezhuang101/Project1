@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> 
 int main()
 {
 	int a[] = { 15,46,41,31,4,48,45,7,8 };
