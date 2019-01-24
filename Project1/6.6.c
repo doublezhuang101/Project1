@@ -10,5 +10,14 @@ int main()
 		{20,21,22,23,24}
 	};
 	int sum = 0, i, j;
+	int n = 0;
+	for (i = 4; i > 0; i--,n++)
+	{
+		for ( j=0; j<5-n;j++)
+		{
+			sum = array[i][j] + sum;
+		}
+	}
+	printf("%d",sum);
 	return 0;
 }
