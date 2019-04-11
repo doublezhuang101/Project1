@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6.10.c">
+    <ClCompile Include="二分查找法.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
